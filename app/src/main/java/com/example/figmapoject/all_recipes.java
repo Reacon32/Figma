@@ -28,19 +28,4 @@ public class all_recipes extends AppCompatActivity {
             return insets;
         });
     }
-    public void perehod(View view){
-
-        ImageButton but = findViewById(R.id.imageButton35);
-        but.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-            }
-        });
-        Intent login = new Intent(all_recipes.this, pizza_recept.class);
-        startActivity(login);
-        Toast toast = Toast.makeText(all_recipes.this, "Вы перешли в сохранённый рецепт",  Toast.LENGTH_SHORT);
-        toast.setGravity(Gravity.END | Gravity.CENTER_VERTICAL, 0,0);
-        toast.show();
-    }
 }

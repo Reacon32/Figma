@@ -166,48 +166,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <LinearLayout
-        android:layout_width="411dp"
-        android:layout_height="wrap_content"
-        android:background="#FFFFFF"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
-
-        <ImageButton
-            android:id="@+id/imageButton37"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:backgroundTint="#00FFFFFF"
-            android:translationX="300dp"
-            app:srcCompat="@drawable/like_svgrepo_com_1__1_" />
-
-        <ImageButton
-            android:id="@+id/imageButton38"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
-            android:backgroundTint="#00FFFFFF"
-            android:translationX="50dp"
-            app:srcCompat="@drawable/recipe_svgrepo_com_1__1_" />
-
-        <ImageButton
-            android:id="@+id/imageButton39"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
-            android:backgroundTint="#00FFFFFF"
-            android:translationX="-75dp"
-            app:srcCompat="@drawable/_643769_building_home_house_main_menu_start_113416_1__1_" />
-
-        <ImageButton
-            android:id="@+id/imageButton40"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:backgroundTint="#00FFFFFF"
-            android:translationX="65dp"
-            app:srcCompat="@drawable/_092564_about_mobile_ui_profile_ui_user_website_114033_1__1_" />
-    </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

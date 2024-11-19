@@ -29,13 +29,7 @@ public class login extends AppCompatActivity {
     public void perehod(View view){
 
         Button but = findViewById(R.id.button5);
-        but.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-            }
-        });
-        Intent login = new Intent(login.this, all_recipes.class);
+        Intent login = new Intent(login.this, Menu_activity.class);
         startActivity(login);
         Toast toast = Toast.makeText(login.this, "Вы перешли на главную страницу",  Toast.LENGTH_SHORT);
         toast.setGravity(Gravity.END | Gravity.CENTER_VERTICAL, 0,0);

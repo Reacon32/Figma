@@ -312,9 +312,12 @@
         android:id="@+id/imageView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/clock_icon_128908_1"
-        tools:layout_editor_absoluteX="347dp"
-        tools:layout_editor_absoluteY="268dp" />
+        android:layout_marginTop="268dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.896"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView19"
+        app:srcCompat="@drawable/clock_icon_128908_1" />
 
     <ImageView
         android:id="@+id/imageView19"
@@ -329,10 +332,13 @@
 
     <ImageButton
         android:id="@+id/imageButton46"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="64dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="220dp"
         android:backgroundTint="#00FFFFFF"
-        app:srcCompat="@drawable/heart_like_love_twitter_icon_127132_1"
-        tools:layout_editor_absoluteX="329dp"
-        tools:layout_editor_absoluteY="463dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.925"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/heart_like_love_twitter_icon_127132_1" />
 </androidx.constraintlayout.widget.ConstraintLayout>
